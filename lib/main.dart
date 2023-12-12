@@ -1,6 +1,7 @@
 import 'package:database_firebase_acc/pages/launcher_screen.dart';
 import 'package:database_firebase_acc/pages/new_product_page.dart';
 import 'package:database_firebase_acc/pages/category_page.dart';
+import 'package:database_firebase_acc/pages/product_details_page.dart';
 import 'package:database_firebase_acc/pages/view_product_page.dart';
 import 'package:database_firebase_acc/providers/product_provider.dart';
 import 'package:flutter/material.dart';
@@ -48,6 +49,8 @@ class MyApp extends StatelessWidget {
           NewProductPage.routeName:(_) => NewProductPage(),
           ViewProductPage.routeName:(_) => ViewProductPage(),
           CategoryPage.routeName:(_) => CategoryPage(),
+          ProductDetailsPage.routeName:(_) => ProductDetailsPage(),
+
         },
     );
   }

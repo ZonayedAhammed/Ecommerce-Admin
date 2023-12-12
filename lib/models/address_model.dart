@@ -18,4 +18,4 @@ class AddressModel with _$AddressModel{
 
 
 
-///streetAdress, city, zipcode,
+///streetAddress, city, zipcode,
