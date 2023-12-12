@@ -24,7 +24,7 @@ class ViewProductPage extends StatelessWidget {
               routeName,arguments: product.id
           ),
           leading: SizedBox(
-            width: 100,
+            width: 110,
             height: 100,
             child: CachedNetworkImage(
               fadeInDuration: const Duration(seconds: 3),
