@@ -32,13 +32,13 @@ class _LoginScreenState extends State<LoginScreen> {
 
               Padding(
                 padding: const EdgeInsets.symmetric(
-                    horizontal: 40.0, vertical: 4),
+                    horizontal: 42.0, vertical: 4),
                 child: TextFormField(
                   style: TextStyle(color: Colors.amber[600], fontStyle: FontStyle.italic,fontSize: 30),
                   controller: _emailController,
                   keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(labelText: 'Email Address',
-                    labelStyle: TextStyle(color: Colors.amber[600], fontSize: 30.0),
+                    labelStyle: TextStyle(color: Colors.amber[600], fontSize: 32.0),
                     prefix: const Icon(Icons.email),
                   ),
                   validator: (value) {

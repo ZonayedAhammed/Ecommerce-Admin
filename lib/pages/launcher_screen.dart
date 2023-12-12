@@ -25,7 +25,7 @@ class _LauncherScreenState extends State<LauncherScreen> {
   }
   @override
   Widget build(BuildContext context) {
-      return  Scaffold(
+      return  const Scaffold(
       body: Center(
         child: CircularProgressIndicator(),
       ),

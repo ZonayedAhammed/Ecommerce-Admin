@@ -27,7 +27,7 @@ class ViewProductPage extends StatelessWidget {
             width: 100,
             height: 100,
             child: CachedNetworkImage(
-              fadeInDuration: const Duration(seconds: 2),
+              fadeInDuration: const Duration(seconds: 3),
               fadeInCurve:Curves.easeInOut,
               imageUrl: product.imageUrl,
               placeholder: (context, url)=> const Center (child: CircularProgressIndicator(),),

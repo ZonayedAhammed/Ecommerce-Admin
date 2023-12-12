@@ -39,7 +39,7 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
         children: [
           CachedNetworkImage(
             width: double.infinity,
-            height: 250,
+            height: 252,
             fadeInDuration: const Duration(seconds: 2),
             fadeInCurve:Curves.easeInOut,
             imageUrl: productModel.imageUrl,
